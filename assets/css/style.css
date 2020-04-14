@@ -668,3 +668,27 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 }
+
+@media (max-width: 450px) {
+
+  /* Intro  */
+
+    .intro__title {
+      font-size: 35px;
+    }
+
+
+      /* Smart */
+
+      .phones__item__content {
+        height: 340px;
+      }
+
+      /* Watch */
+      .watch__content {
+        top: 0;
+
+      }
+
+
+}
