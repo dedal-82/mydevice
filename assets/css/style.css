@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6, p {
     min-height: 600px;
     position: relative;
 
-    background-color: #fff;
+    background-color: #1d1d1f;
     /* background: url("../images/bg/bg.jpg") center no-repeat; */
     -webkit-background-size: cover;
     background-size: cover;
@@ -64,20 +64,20 @@ h1, h2, h3, h4, h5, h6, p {
 
 .intro__title {
     margin-top: 30%;
-    color: #1d1d1f;
+    color: #fff;
     font-size: 60px;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1;
-    text-align: left;
+    text-align: center;
 }
 
 .intro__subtitle {
     margin-bottom: 10px;
     font-size: 40px;
     font-weight: 400;
-    color: #1d1d1f;
-    text-align: left;
+    color: #fff;
+    text-align: center;
 }
 
 .intro__logo {
@@ -667,6 +667,14 @@ height: 500px;
     font-size: 40px;
   }
 
+  /* Nav */
+.nav__link {
+  margin: 0 5px;
+}
+  .nav__link-img {
+    height: 30px;
+  }
+
 /* Smart */
   .phones__item {
     width: 50%;
@@ -722,13 +730,15 @@ height: 500px;
   .nav__link {
     display: block;
     margin: 0;
-    padding: 8px 20px;
+    padding: 8px 10px;
   }
 
   .nav-toggle {
     display: block;
   }
-
+  .nav__link-img {
+    height: 30px;
+  }
 /* Section */
   .section {
     padding: 40px 0;
