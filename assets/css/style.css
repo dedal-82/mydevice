@@ -456,6 +456,7 @@ height: 500px;
   background-color: #fff;
   text-align: center;
   margin-bottom: 15px;
+  padding-bottom: 50px;
 }
 .case__item:last-child {
   margin-left: 0;
@@ -476,9 +477,12 @@ height: 500px;
 .case__title {
   font-size: 16px;
   color:#3f70de;
-}
-.case__title:last-child {
   margin-bottom: 50px;
+  text-decoration: none;
+}
+.case__title:hover {
+  text-decoration: underline;
+  color: #4275e8;
 }
 
 .case__footer{
