@@ -578,7 +578,11 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .sound__item-black {
-  background-color: #000;
+  background-color: #1d1d1f;
+  /* background: url("../images/bg/bgcolor.jpg") center no-repeat; */
+  -webkit-background-size: cover;
+  background-size: cover;
+
   color: #fff;
 }
 
