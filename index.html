@@ -16,6 +16,34 @@
 </head>
 <body>
 
+
+    <!-- Load Facebook SDK for JavaScript -->
+          <div id="fb-root"></div>
+          <script>
+            window.fbAsyncInit = function() {
+              FB.init({
+                xfbml            : true,
+                version          : 'v6.0'
+              });
+            };
+
+            (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/ru_RU/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));</script>
+
+          <!-- Your customer chat code -->
+          <div class="fb-customerchat"
+            attribution=setup_tool
+            page_id="692459484100074"
+      theme_color="#0084ff"
+      logged_in_greeting="Привет! Не могу ли я вам чем помочь?"
+      logged_out_greeting="Привет! Не могу ли я вам чем помочь?">
+          </div>
+
   <header class="header" id="header"> <!--  Header -->
 
           <div class="header__inner">
@@ -282,7 +310,6 @@
     </div>
   </footer>
   <img src="assets/images/bg/footer.jpg" alt="" class="footer__bg">
-
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="assets/js/app.js"></script>
